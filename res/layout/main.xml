@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo a aplicação de Cadastro de Clientes. Este é 
+		um pequeno programa de demonstração de cadastro. Selecione uma das opções abaixo:" />
+
+    <Button
+        android:id="@+id/btcadclientes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Clientes" />
+
+    <Button
+        android:id="@+id/btlistclientes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Clientes Cadastrados" />
+
+    <Button
+        android:id="@+id/btsair"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair" />
+</LinearLayout>
